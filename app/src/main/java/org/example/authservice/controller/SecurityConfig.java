@@ -1,6 +1,7 @@
-package org.example.authservice.auth;
+package org.example.authservice.controller;
 
 import lombok.Data;
+import org.example.authservice.auth.JwtAuthFilter;
 import org.example.authservice.eventProducer.UserInfoProducer;
 import org.example.authservice.repository.UserRepository;
 import org.example.authservice.service.UserDetailsServiceImpl;
